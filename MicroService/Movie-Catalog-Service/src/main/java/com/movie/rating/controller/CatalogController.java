@@ -23,9 +23,9 @@ public class CatalogController {
 
 	@GetMapping("user/{userId}")
 	public List<Catalog> getCatalog(@PathVariable("userId") String userId) {
-		RatingInfo ratingInfo = template.getForObject("http://localhost:9002/rating/user/" + userId, RatingInfo.class);
+		RatingInfo ratingInfo = template.getForObject("http://movie-rating/rating/user/" + userId, RatingInfo.class);
 		return ratingInfo.getRatings().stream().map(rating -> {
-			Movie movie = template.getForObject("http://localhost:9001/movie/" + rating.getMovieId(), Movie.class);
+			Movie movie = template.getForObject("http://movie-info/movie/" + rating.getMovieId(), Movie.class);
 			return new Catalog(movie.getId(), movie.getOverview(), rating.getRating());
 		}).collect(Collectors.toList());
 	}
