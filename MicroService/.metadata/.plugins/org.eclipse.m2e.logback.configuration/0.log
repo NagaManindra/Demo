@@ -695,3 +695,5 @@
 2022-04-22 11:34:28,542 [Worker-47: Launching Movie-Catalog-Service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-04-22 11:34:28,549 [Worker-47: Launching Movie-Catalog-Service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-04-22 11:34:28,551 [Worker-47: Launching Movie-Catalog-Service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-22 11:34:28,551 [Worker-47: Launching Movie-Catalog-Service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-22 11:34:28,551 [Worker-47: Launching Movie-Catalog-Service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Manindra\OneDrive\Desktop\Demos\MicroService\Movie-Catalog-Service\src\test\resources
