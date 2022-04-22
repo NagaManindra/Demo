@@ -1,0 +1,5 @@
+package com.movie.rating.model;
+
+public class Genres {
+
+}
