@@ -1,0 +1,4 @@
+server:
+  port: 9001
+api:
+  key: "796dc65e6809f2a9f058d5eb6b73bdf4"
